@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "QuickStart",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build QuickStart",
+            "program": "${workspaceFolder}/QuickStart/bin/Debug/net6.0/QuickStart.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/QuickStart",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Evaluator",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build Evaluator",
+            "program": "${workspaceFolder}/Evaluator/bin/Debug/net6.0/Evaluator.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Evaluator",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        }
+    ]
+}
